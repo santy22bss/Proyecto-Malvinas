@@ -1,0 +1,34 @@
+/* 
+  estilosContacto.css
+  Most styles have been moved to css/global.css.
+  Specific styles for Contacto page.
+*/
+
+/* 
+   Mantener estilos específicos para los enlaces de instituciones si no están cubiertos o si queremos que se vean distintos
+   a los enlaces globales.
+   En global.css "a" tiene inherit color.
+   Aquí queremos que parezcan botones o tarjetas?
+   El original tenía .colegio y .main-text a con estilos de "botón" blanco.
+*/
+
+.main-text a.colegio {
+    display: block;
+    padding: 15px 20px;
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: var(--color-primary);
+    box-shadow: var(--shadow-soft);
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.main-text a.colegio:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+    background-color: var(--color-primary);
+    color: #fff;
+}

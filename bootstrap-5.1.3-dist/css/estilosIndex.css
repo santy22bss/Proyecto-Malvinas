@@ -1,0 +1,10 @@
+/* 
+  estilosIndex.css
+  Most styles have been moved to css/global.css to follow DRY principles.
+  This file contains only styles specific to the Index page that are not covered by the global design system.
+*/
+
+/* 
+   Mantener estilos específicos si los hubiera en el futuro.
+   Actualmente global.css maneja todo el layout principal.
+*/
