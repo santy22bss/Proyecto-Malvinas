@@ -88,6 +88,11 @@ h2::after {
     background-color: var(--color-accent);
 }
 
+.heading-centered::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .no-separator::after {
     content: none;
 }
@@ -324,6 +329,7 @@ header {
         top: 70px;
         left: 0;
         width: 100%;
+        z-index: 1000;
         flex-direction: column;
         background-color: var(--color-primary);
         padding: 1rem;
