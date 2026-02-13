@@ -329,7 +329,7 @@ header {
         top: 70px;
         left: 0;
         width: 100%;
-        z-index: 1000;
+        z-index: 9999;
         flex-direction: column;
         background-color: var(--color-primary);
         padding: 1rem;
